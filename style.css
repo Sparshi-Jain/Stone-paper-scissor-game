@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f38c8c, #2a6ee4);
+}
+
+.container {
+    background: rgba(28, 36, 47, 0.245);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+}
+
+.scoreboard {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #160707;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.result_field {
+    margin-top: 1rem;
+}
+
+/* Image section */
+.result_images {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.result_images img {
+    width: 90px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styled result message */
+.result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    background: #ffffffc5;
+}
+
+/* Improved styling for options */
+.option_images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.option_image {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.3s;
+    opacity: 0.8;
+}
+
+.option_image:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.option_image img {
+    width: 90px;
+    border-radius: 50%;
+    border: 4px solid #6a11cb;
+    padding: 8px;
+}
+
+.option_image p {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: #0e0a0a;
+    font-size: 1.3rem;
+}
+
+/* Reset Button */
+#resetGame {
+    margin-top: 1.5rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: #040f2292;
+    color: white;
+    
+}
+
+#resetGame:hover {
+    background: #2f97d3;
+}
